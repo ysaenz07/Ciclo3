@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.tabla {
+  width: 100%;
+  margin: 10px;
+  overflow-y: scroll;
+}
+.tabla td,
+.tabla th {
+  padding: 8px;
+  border: 1px solid rgb(131, 105, 105);
+}
+
+.tabla th {
+  background-color: #56685d;
+  color: white;
+  padding-top: 3px;
+  padding-bottom: 12px;
+  text-align: left;
+}
+
+.tabla tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.tabla tr:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+
+.enlaces{
+  color: white;
+  height: 200px;
+  width: 400px;
+
+  padding: 20px;
+  background-color: #6B7280;
+  border: 2px solid #6366F1; 
+  display:absolute;
+  border-radius: 20px; 
+  left: 150px;
+  text-decoration:none;
+    
+}
+
+.enlaces:hover{
+  background-color: #6366F1; 
+  color: white;
+}
+.cuadrados {
+  margin-right: 8%;
+  height: 200px;
+  width: 200px;
+}
+.subtitulos{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
